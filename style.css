@@ -1,0 +1,387 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #1c5088;
+    border-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Header */
+.header {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.nav a {
+    color: #333;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav a:hover {
+    color: #338acd;
+}
+
+/* Hero Section */
+.banner-section {
+    background: url('Images/team-young-specialist-doctors-standing-corridor-hospital\ \(1\).jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+}
+.bluesection {
+    min-height: 100px;
+    background-color: #8bbcf1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center;
+    position: sticky;
+    top: 80px; /* Adjust based on your header height */
+    z-index: 1010;
+}
+.welcome-to-our-family-image {
+    background: url('Images/portrait-smiling-family-with-grandparents_1.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-to-our-family-right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center;
+
+}
+
+
+/* Welcome Section */
+.welcome-section h2 {
+    font-size: 2rem;
+}
+
+.welcome-section p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*bluesection2*/
+.bluesection2 {
+    background-color: #0056b3; /* Blue background color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 40px; /* Padding inside the section */
+}
+
+.bluesection2 h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.bluesection2 p {
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+/* Specialties Section */
+.specialty-card {
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.specialty-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.icon-container {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+}
+
+.icon-container img {
+    width: 100%;
+    height: auto;
+}
+
+h2.text-primary {
+    color: #0056b3;
+}
+
+.specialty-card a {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+
+/* Doctor Section */
+.meet-doctor-image{
+    background: url('Images/doctor-space.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* what sets us apart */
+.box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 auto 10px auto;
+}
+
+.content img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* review section */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.reviews-section {
+    background: url('Images/familyfixedreview.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.review-card {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    min-width: 300px;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-link {
+    color: #0056b3;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #0056b3;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .review-card {
+        width: auto;
+        margin: 0 auto 15px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .doctor-section h2 {
+    font-size: 4rem;
+} */
+
+/* .doctor-section img {
+    border-radius: 5%;
+} */
+
+/* Reviews Section */
+.reviews-section h2 {
+    font-size: rem;
+}
+
+.review {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+/* Contact Section */
+.contact-section h2 {
+    font-size: 2rem;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background: #b34646;
+    color: rgb(82, 16, 16);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
