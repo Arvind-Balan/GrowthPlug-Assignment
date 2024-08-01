@@ -3,10 +3,16 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-height: 100%;}
+    height: 100%;
+    overflow-x: hidden;
+}
 
 a {
     text-decoration: none;
+}
+
+.app-primary-color{
+    color: #1c5088;  
 }
 
 .material-symbols-outlined {
@@ -15,14 +21,6 @@ a {
   'wght' 700,
   'GRAD' 0,
   'opsz' 24
-}
-
-.app-primary-color{
-    color: #1c5088;  
-}
-.new-patient{
-    background-color: #2e69a8;
-    border-radius: 1rem;
 }
 
 .btn-primary {
@@ -47,8 +45,18 @@ a {
 .nav a:hover {
     color: #50cef1;
 }
+/* General Styles */
 
-/* Hero Section */
+.new-patient{
+    background-color: #2e69a8;
+    border-radius: 1rem;
+}
+
+.blue-section{
+    background-color: #50cef1;  
+}
+
+/* banner Section */
 .banner-section {
     background: url('Images/team-young-specialist-doctors-standing-corridor-hospital\ \(1\).jpg') no-repeat center center;
     background-size: cover;
@@ -60,29 +68,7 @@ a {
     color: white;
 }
 
-.hero-section h1 {
-    font-size: 2.5rem;
-}
 
-.hero-section .btn {
-    margin-top: 20px;
-}
-.blue-section{
-    background-color: #50cef1;  
-}
-.bluesection {
-    min-height: 100px;
-    background-color: #8bbcf1;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centers content vertically */
-    align-items: center; /* Centers content horizontally */
-    text-align: center;
-    position: sticky;
-    top: 80px; /* Adjust based on your header height */
-    z-index: 1010;
-}
 .welcome-to-our-family-image {
     background: url('Images/portrait-smiling-family-with-grandparents_1.jpg') no-repeat center center;
     background-size: cover;
