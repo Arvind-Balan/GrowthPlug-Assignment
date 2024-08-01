@@ -337,6 +337,10 @@ footer hr {
     height: 500px;
     width: 100%;
 }
+.footer-logo{
+    border-radius: 1rem;
+    width: 13rem;
+}
 
 
 
