@@ -33,9 +33,6 @@ a {
     background-color: #50cef1;
     border-color: #0056b3;
 }
-
-
-
 .nav a {
     color: #333;
     font-weight: bold;
@@ -45,7 +42,6 @@ a {
 .nav a:hover {
     color: #50cef1;
 }
-/* General Styles */
 
 .new-patient{
     background-color: #2e69a8;
@@ -68,7 +64,6 @@ a {
     color: white;
 }
 
-
 .welcome-to-our-family-image {
     background: url('Images/portrait-smiling-family-with-grandparents_1.jpg') no-repeat center center;
     background-size: cover;
@@ -84,12 +79,10 @@ a {
 .welcome-to-our-family-right-content {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers content vertically */
-    align-items: center; /* Centers content horizontally */
+    justify-content: center; 
+    align-items: center; 
     text-align: center;
-
 }
-
 
 /* Welcome Section */
 .welcome-section h2 {
@@ -103,19 +96,19 @@ a {
 
 /*bluesection2*/
 .bluesection2 {
-    background-color: #0056b3; /* Blue background color */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
-    padding: 40px; /* Padding inside the section */
+    background-color: #0056b3; 
+    border-radius: 15px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    padding: 40px;
     
 }
 
 .bluesection2 h2 {
-    margin-bottom: 20px; /* Space below the heading */
+    margin-bottom: 20px;
 }
 
 .bluesection2 p {
-    margin-bottom: 30px; /* Space below the paragraph */
+    margin-bottom: 30px; 
 }
 
 /* Specialties Section */
@@ -174,14 +167,11 @@ h2.text-primary {
     font-weight: bold;
 }
 
-
 /* Doctor Section */
 .doctor-image img {
     width: 100%;
     height: auto;
     border-radius: 1rem;
-    
-
 }
 .meet-doctor-image {
     position: relative;
@@ -214,10 +204,6 @@ h2.text-primary {
     justify-content: center;
     height: 100%;
 }
-
-
-
-
 
 /* what sets us apart */
 .box {
